@@ -1,10 +1,7 @@
 package com.hiennv.flutter_callkit_incoming
 
-import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.KeyguardManager
-import android.app.KeyguardManager.KeyguardLock
-import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -15,7 +12,6 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
-import android.view.ViewGroup
 import android.view.Window
 import android.view.WindowManager
 import android.view.animation.AnimationUtils
@@ -41,7 +37,6 @@ import okhttp3.OkHttpClient
 import com.squareup.picasso.OkHttp3Downloader
 import android.view.ViewGroup.MarginLayoutParams
 import android.os.PowerManager
-import android.os.PowerManager.WakeLock
 import android.text.TextUtils
 import com.hiennv.flutter_callkit_incoming.CallkitIncomingBroadcastReceiver.Companion.EXTRA_CALLKIT_TEXT_ACCEPT
 import com.hiennv.flutter_callkit_incoming.CallkitIncomingBroadcastReceiver.Companion.EXTRA_CALLKIT_TEXT_DECLINE

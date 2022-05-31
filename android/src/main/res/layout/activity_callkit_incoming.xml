@@ -10,7 +10,7 @@
         android:id="@+id/ivBackground"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0955fa"
+        android:background="#ffffff"
         android:scaleType="centerCrop"
         tools:ignore="ContentDescription" />
 
@@ -134,7 +134,7 @@
                         android:layout_marginBottom="@dimen/base_margin"
                         android:gravity="center"
                         android:text="@string/text_decline"
-                        android:textColor="#0955fa"
+                        android:textColor="#ffffff"
                         android:textSize="0dp" />
 
 
@@ -170,7 +170,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="Open App"
-                        android:textColor="#0955fa"
+                        android:textColor="#ffffff"
                         android:textSize="0dp"  />
 
             </LinearLayout>

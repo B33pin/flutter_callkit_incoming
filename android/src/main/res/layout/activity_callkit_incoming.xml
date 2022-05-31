@@ -72,7 +72,7 @@
                     android:autoSizeTextType="uniform"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:textColor="@android:color/white"
+                    android:textColor="#000000"
                     android:textSize="@dimen/size_text_name"
                     app:autoSizeMaxTextSize="@dimen/size_text_name"
                     app:autoSizeMinTextSize="12sp"
@@ -89,7 +89,7 @@
                     android:layout_marginTop="4dp"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:textColor="@color/action_text"
+                    android:textColor="#000000"
                     android:textSize="@dimen/size_text_action"
                     tools:text="Some info" />
 
